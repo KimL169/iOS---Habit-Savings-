@@ -10,11 +10,19 @@
 		3B1B24461B3FF4E6007B6E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24451B3FF4E6007B6E33 /* main.m */; };
 		3B1B24491B3FF4E6007B6E33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24481B3FF4E6007B6E33 /* AppDelegate.m */; };
 		3B1B244C1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B244A1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodeld */; };
-		3B1B244F1B3FF4E6007B6E33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B244E1B3FF4E6007B6E33 /* ViewController.m */; };
-		3B1B24521B3FF4E6007B6E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B24501B3FF4E6007B6E33 /* Main.storyboard */; };
 		3B1B24541B3FF4E6007B6E33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B24531B3FF4E6007B6E33 /* Images.xcassets */; };
 		3B1B24571B3FF4E6007B6E33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B24551B3FF4E6007B6E33 /* LaunchScreen.xib */; };
 		3B1B24631B3FF4E6007B6E33 /* Smoke_SavingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24621B3FF4E6007B6E33 /* Smoke_SavingsTests.m */; };
+		3B1B247C1B3FF50B007B6E33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B246D1B3FF50B007B6E33 /* ViewController.m */; };
+		3B1B247D1B3FF50B007B6E33 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B246F1B3FF50B007B6E33 /* CoreDataViewController.m */; };
+		3B1B247E1B3FF50B007B6E33 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B24701B3FF50B007B6E33 /* ItemTableViewCell.xib */; };
+		3B1B247F1B3FF50B007B6E33 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24721B3FF50B007B6E33 /* ItemTableViewCell.m */; };
+		3B1B24801B3FF50B007B6E33 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24741B3FF50B007B6E33 /* OptionsViewController.m */; };
+		3B1B24811B3FF50B007B6E33 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24761B3FF50B007B6E33 /* ItemViewController.m */; };
+		3B1B24821B3FF50B007B6E33 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B24781B3FF50B007B6E33 /* NSDate+Helper.m */; };
+		3B1B24831B3FF50B007B6E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B24791B3FF50B007B6E33 /* Main.storyboard */; };
+		3B1B24841B3FF50B007B6E33 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B247B1B3FF50B007B6E33 /* messages.plist */; };
+		3B1B24901B3FF5E8007B6E33 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B248F1B3FF5E8007B6E33 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +42,28 @@
 		3B1B24471B3FF4E6007B6E33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B1B24481B3FF4E6007B6E33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B1B244B1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smoke_Savings.xcdatamodel; sourceTree = "<group>"; };
-		3B1B244D1B3FF4E6007B6E33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B1B244E1B3FF4E6007B6E33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B1B24511B3FF4E6007B6E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B1B24531B3FF4E6007B6E33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B1B24561B3FF4E6007B6E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3B1B245C1B3FF4E6007B6E33 /* Smoke SavingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke SavingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1B24611B3FF4E6007B6E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B1B24621B3FF4E6007B6E33 /* Smoke_SavingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smoke_SavingsTests.m; sourceTree = "<group>"; };
+		3B1B246C1B3FF50B007B6E33 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../IreneSmokeCounter/IreneSmokeCounter/ViewController.h; sourceTree = "<group>"; };
+		3B1B246D1B3FF50B007B6E33 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../IreneSmokeCounter/IreneSmokeCounter/ViewController.m; sourceTree = "<group>"; };
+		3B1B246E1B3FF50B007B6E33 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataViewController.h; path = ../../Productivity2/Productivity2/CoreDataViewController.h; sourceTree = "<group>"; };
+		3B1B246F1B3FF50B007B6E33 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataViewController.m; path = ../../Productivity2/Productivity2/CoreDataViewController.m; sourceTree = "<group>"; };
+		3B1B24701B3FF50B007B6E33 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemTableViewCell.xib; path = ../../IreneSmokeCounter/IreneSmokeCounter/ItemTableViewCell.xib; sourceTree = "<group>"; };
+		3B1B24711B3FF50B007B6E33 /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemTableViewCell.h; path = ../../IreneSmokeCounter/IreneSmokeCounter/ItemTableViewCell.h; sourceTree = "<group>"; };
+		3B1B24721B3FF50B007B6E33 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemTableViewCell.m; path = ../../IreneSmokeCounter/IreneSmokeCounter/ItemTableViewCell.m; sourceTree = "<group>"; };
+		3B1B24731B3FF50B007B6E33 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = ../../IreneSmokeCounter/IreneSmokeCounter/OptionsViewController.h; sourceTree = "<group>"; };
+		3B1B24741B3FF50B007B6E33 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = ../../IreneSmokeCounter/IreneSmokeCounter/OptionsViewController.m; sourceTree = "<group>"; };
+		3B1B24751B3FF50B007B6E33 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemViewController.h; path = ../../IreneSmokeCounter/ItemViewController.h; sourceTree = "<group>"; };
+		3B1B24761B3FF50B007B6E33 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemViewController.m; path = ../../IreneSmokeCounter/ItemViewController.m; sourceTree = "<group>"; };
+		3B1B24771B3FF50B007B6E33 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helper.h"; path = "../../IreneSmokeCounter/IreneSmokeCounter/NSDate+Helper.h"; sourceTree = "<group>"; };
+		3B1B24781B3FF50B007B6E33 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helper.m"; path = "../../IreneSmokeCounter/IreneSmokeCounter/NSDate+Helper.m"; sourceTree = "<group>"; };
+		3B1B247A1B3FF50B007B6E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../IreneSmokeCounter/IreneSmokeCounter/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B1B247B1B3FF50B007B6E33 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = messages.plist; path = ../../IreneSmokeCounter/IreneSmokeCounter/messages.plist; sourceTree = "<group>"; };
+		3B1B248E1B3FF5E8007B6E33 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../Item.h; sourceTree = "<group>"; };
+		3B1B248F1B3FF5E8007B6E33 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = ../Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +107,22 @@
 			children = (
 				3B1B24471B3FF4E6007B6E33 /* AppDelegate.h */,
 				3B1B24481B3FF4E6007B6E33 /* AppDelegate.m */,
-				3B1B244D1B3FF4E6007B6E33 /* ViewController.h */,
-				3B1B244E1B3FF4E6007B6E33 /* ViewController.m */,
-				3B1B24501B3FF4E6007B6E33 /* Main.storyboard */,
+				3B1B246C1B3FF50B007B6E33 /* ViewController.h */,
+				3B1B246D1B3FF50B007B6E33 /* ViewController.m */,
+				3B1B246E1B3FF50B007B6E33 /* CoreDataViewController.h */,
+				3B1B246F1B3FF50B007B6E33 /* CoreDataViewController.m */,
+				3B1B24911B3FF7D7007B6E33 /* Items TableViewCell */,
+				3B1B24731B3FF50B007B6E33 /* OptionsViewController.h */,
+				3B1B24741B3FF50B007B6E33 /* OptionsViewController.m */,
+				3B1B24751B3FF50B007B6E33 /* ItemViewController.h */,
+				3B1B24761B3FF50B007B6E33 /* ItemViewController.m */,
+				3B1B24771B3FF50B007B6E33 /* NSDate+Helper.h */,
+				3B1B24781B3FF50B007B6E33 /* NSDate+Helper.m */,
+				3B1B24791B3FF50B007B6E33 /* Main.storyboard */,
+				3B1B247B1B3FF50B007B6E33 /* messages.plist */,
 				3B1B24531B3FF4E6007B6E33 /* Images.xcassets */,
 				3B1B24551B3FF4E6007B6E33 /* LaunchScreen.xib */,
-				3B1B244A1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodeld */,
+				3B1B24921B3FF7E8007B6E33 /* Models */,
 				3B1B24431B3FF4E6007B6E33 /* Supporting Files */,
 			);
 			path = "Smoke Savings";
@@ -120,6 +152,26 @@
 				3B1B24611B3FF4E6007B6E33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B1B24911B3FF7D7007B6E33 /* Items TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B24701B3FF50B007B6E33 /* ItemTableViewCell.xib */,
+				3B1B24711B3FF50B007B6E33 /* ItemTableViewCell.h */,
+				3B1B24721B3FF50B007B6E33 /* ItemTableViewCell.m */,
+			);
+			name = "Items TableViewCell";
+			sourceTree = "<group>";
+		};
+		3B1B24921B3FF7E8007B6E33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B244A1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodeld */,
+				3B1B248E1B3FF5E8007B6E33 /* Item.h */,
+				3B1B248F1B3FF5E8007B6E33 /* Item.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1B24521B3FF4E6007B6E33 /* Main.storyboard in Resources */,
 				3B1B24571B3FF4E6007B6E33 /* LaunchScreen.xib in Resources */,
+				3B1B247E1B3FF50B007B6E33 /* ItemTableViewCell.xib in Resources */,
+				3B1B24841B3FF50B007B6E33 /* messages.plist in Resources */,
 				3B1B24541B3FF4E6007B6E33 /* Images.xcassets in Resources */,
+				3B1B24831B3FF50B007B6E33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1B24901B3FF5E8007B6E33 /* Item.m in Sources */,
+				3B1B247F1B3FF50B007B6E33 /* ItemTableViewCell.m in Sources */,
 				3B1B24491B3FF4E6007B6E33 /* AppDelegate.m in Sources */,
 				3B1B24461B3FF4E6007B6E33 /* main.m in Sources */,
-				3B1B244F1B3FF4E6007B6E33 /* ViewController.m in Sources */,
+				3B1B24821B3FF50B007B6E33 /* NSDate+Helper.m in Sources */,
+				3B1B247C1B3FF50B007B6E33 /* ViewController.m in Sources */,
+				3B1B247D1B3FF50B007B6E33 /* CoreDataViewController.m in Sources */,
+				3B1B24811B3FF50B007B6E33 /* ItemViewController.m in Sources */,
 				3B1B244C1B3FF4E6007B6E33 /* Smoke_Savings.xcdatamodeld in Sources */,
+				3B1B24801B3FF50B007B6E33 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +308,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B1B24501B3FF4E6007B6E33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B1B24511B3FF4E6007B6E33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B1B24551B3FF4E6007B6E33 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B1B24561B3FF4E6007B6E33 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3B1B24791B3FF50B007B6E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1B247A1B3FF50B007B6E33 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
