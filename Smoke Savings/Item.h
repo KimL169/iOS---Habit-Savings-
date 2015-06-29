@@ -15,6 +15,6 @@
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSDate * date;
 @property (nonatomic, retain) NSNumber * price;
-@property (nonatomic, retain) NSData * image;
+@property (nonatomic, retain) NSData * imageOfItem;
 
 @end

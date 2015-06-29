@@ -14,6 +14,6 @@
 @dynamic name;
 @dynamic date;
 @dynamic price;
-@dynamic image;
+@dynamic imageOfItem;
 
 @end
